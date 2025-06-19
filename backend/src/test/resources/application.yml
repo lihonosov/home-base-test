@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:latest:///testdb
+    username: test
+    password: test
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+
+  docker:
+    compose:
+      enabled: false
+
+app:
+  jwt:
+    secret: testSecretKeyForJwtTokenGenerationAndValidationInTestEnvironment
+    expirationMs: 86400000
