@@ -1,6 +1,6 @@
 # Home Based Test
 
-This is a multi-module Maven project that demonstrates a full-stack application with a Spring Boot backend and a React frontend.
+🧠 This project was built with the help of AI (VibeCoding-inspired workflow) to speed up development and experimentation, especially due to limited free time.
 
 ## Project Structure
 
